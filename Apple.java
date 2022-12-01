@@ -1,8 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Food for the elephant
- *
+ * Food for the elephant 
+ * 
  * @author Justin Wu
  * @version Novemeber 2022
  */
@@ -16,7 +16,7 @@ public class Apple extends Actor
     {
         // Apple falls downwards
         setLocation(getX(), getY()+2);
-
+        
         MyWorld w = (MyWorld) getWorld();
         if(getY() >= w.getHeight()){
             w.gameOver();
